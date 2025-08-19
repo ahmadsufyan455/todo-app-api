@@ -1,0 +1,4 @@
+LOAD DATABASE
+     FROM sqlite://todos_app.db
+     INTO postgresql://zero@localhost:5432/todo_app
+WITH data only;
