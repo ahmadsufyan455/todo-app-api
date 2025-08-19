@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.pool import StaticPool
 
 from database import Base
-from main import app
+from api.main import app
 from models import Todos, User
 from routers.user import bcrypt_context
 
